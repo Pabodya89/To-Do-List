@@ -1,0 +1,142 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(120deg, #f093fb, #f5576c);
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.todo-container {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 1000px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.filter-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+/* Base style for all buttons */
+button {
+  padding: 8px 16px;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Add button */
+.btn-add {
+  background: transparent;
+  border-color: #00b09b;
+  color: #00b09b;
+}
+
+.btn-add:hover {
+  background: #00b09b;
+  color: white;
+}
+
+/* Complete button */
+.btn-complete {
+  background: transparent;
+  border-color: #0072ff;
+  color: #0072ff;
+}
+
+.btn-complete:hover {
+  background: #0072ff;
+  color: white;
+}
+
+/* Incomplete button */
+.btn-incomplete {
+  background: transparent;
+  border-color: #ff758c;
+  color: #ff758c;
+}
+
+.btn-incomplete:hover {
+  background: #ff758c;
+  color: white;
+}
+
+/* Edit button */
+.btn-edit {
+  background: transparent;
+  border-color: #ffa502;
+  color: #ffa502;
+}
+
+.btn-edit:hover {
+  background: #ffa502;
+  color: white;
+}
+
+/* Delete button */
+.btn-delete {
+  background: transparent;
+  border-color: #ff4757;
+  color: #ff4757;
+}
+
+.btn-delete:hover {
+  background: #ff4757;
+  color: white;
+}
+
+/* Mark Complete button */
+.btn-mark-complete {
+  background: transparent;
+  border-color: #2ed573;
+  color: #2ed573;
+}
+
+.btn-mark-complete:hover {
+  background: #2ed573;
+  color: white;
+}
+
+/* Mark Incomplete button */
+.btn-mark-incomplete {
+  background: transparent;
+  border-color: #2ed573;
+  color: #2ed573;
+}
+
+.btn-mark-incomplete:hover {
+  background: #2ed573;
+  color: white;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background: #f2f2f2;
+}
