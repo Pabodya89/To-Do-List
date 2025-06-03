@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+  <div class="todo-container">
+    <h1>📝 To-Do List</h1>
+    <div class="filter-buttons">
+      <button id="btn-incomplete">Incomplete Tasks</button>
+      <button id="btn-complete">Complete Tasks</button>
+    </div>
+    <button id="btn-add">+ Add Task</button>
+
+    <table>
+      <thead>
+        <tr>
+          <th>No</th>
+          <th>Task</th>
+          <th>Added</th>
+          <th>Status</th>
+          <th>Time Left</th>
+          <th>Action</th>
+          <th>Manage</th>
+        </tr>
+      </thead>
+      <tbody id="task-list"></tbody>
+    </table>
+
+    <button id="view-more" style="display:none;">View More</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
